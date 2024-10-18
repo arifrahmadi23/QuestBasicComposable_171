@@ -15,6 +15,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontFamily
+import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
@@ -58,7 +59,11 @@ fun HalamanLogin(modifier: Modifier = Modifier){
             fontWeight = FontWeight.Bold,
             fontFamily = FontFamily.Serif)
         Spacer(modifier = Modifier.padding(2.dp))
-        Text("Ini adalah Halaman Login")
+        Text("Ini adalah Halaman Login",
+            fontSize = 20.sp,
+            fontFamily = FontFamily.Serif)
+        Spacer(modifier = Modifier.padding(5.dp))
+
     }
 
 }
