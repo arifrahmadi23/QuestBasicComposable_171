@@ -4,11 +4,14 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
+import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.example.tugas2praktikum.ui.theme.Tugas2PraktikumTheme
@@ -39,6 +42,9 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 }
 @Composable
 fun HalamanLogin(modifier: Modifier = Modifier){
+    Column (horizontalAlignment = Alignment.CenterHorizontally,
+        verticalArrangement = Arrangement.Top,
+        )
 
 }
 
@@ -46,6 +52,6 @@ fun HalamanLogin(modifier: Modifier = Modifier){
 @Composable
 fun GreetingPreview() {
     Tugas2PraktikumTheme {
-        HalamanLogin("Android")
+        HalamanLogin()
     }
 }
