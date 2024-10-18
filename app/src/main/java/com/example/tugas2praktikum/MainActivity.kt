@@ -16,6 +16,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontStyle
@@ -76,7 +77,9 @@ fun HalamanLogin(modifier: Modifier = Modifier){
         Text("Nama",
             fontSize = 20.sp,
             fontFamily = FontFamily.Serif)
-        Text("Muhammad Arif Fajri Rahmadi")
+        Text("Muhammad Arif Fajri Rahmadi",
+            fontSize = 20.sp,
+            color = Color.Red)
     }
 
 }
