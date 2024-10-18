@@ -70,6 +70,8 @@ fun HalamanLogin(modifier: Modifier = Modifier){
         Image(
             painter = painterResource(id = R.drawable.logo),
             contentDescription = "",
+            modifier = Modifier
+                .size(300.dp)
         )
     }
 
