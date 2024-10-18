@@ -89,7 +89,7 @@ fun HalamanLogin(modifier: Modifier = Modifier){
             modifier = Modifier
                 .size(500.dp)
                 .clip(CircleShape)
-                .padding(8.dp)
+                .padding(4.dp)
         )
     }
 
