@@ -76,6 +76,7 @@ fun HalamanLogin(modifier: Modifier = Modifier){
         Text("Nama",
             fontSize = 20.sp,
             fontFamily = FontFamily.Serif)
+        Text("Muhammad Arif Fajri Rahmadi")
     }
 
 }
