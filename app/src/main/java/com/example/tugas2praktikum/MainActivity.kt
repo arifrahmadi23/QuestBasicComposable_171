@@ -49,6 +49,7 @@ fun HalamanLogin(modifier: Modifier = Modifier){
             .fillMaxSize()
             .padding(top = 30.dp)
         ){
+        Text("Login")
 
     }
 
