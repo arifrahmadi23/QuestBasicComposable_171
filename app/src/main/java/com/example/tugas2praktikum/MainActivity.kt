@@ -74,7 +74,8 @@ fun HalamanLogin(modifier: Modifier = Modifier){
         )
         Spacer(modifier = Modifier.padding(2.dp))
         Text("Nama",
-            fontSize = 20.sp)
+            fontSize = 20.sp,
+            fontFamily = FontFamily.Serif)
     }
 
 }
