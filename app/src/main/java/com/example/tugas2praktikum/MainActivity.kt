@@ -37,11 +37,15 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
         modifier = modifier
     )
 }
+@Composable
+fun HalamanLogin(modifier: Modifier = Modifier){
+
+}
 
 @Preview(showBackground = true)
 @Composable
 fun GreetingPreview() {
     Tugas2PraktikumTheme {
-        Greeting("Android")
+        HalamanLogin("Android")
     }
 }
