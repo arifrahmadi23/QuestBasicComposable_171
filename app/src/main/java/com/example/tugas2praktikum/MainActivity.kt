@@ -6,6 +6,7 @@ import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Scaffold
@@ -56,8 +57,8 @@ fun HalamanLogin(modifier: Modifier = Modifier){
             fontSize = 100.sp,
             fontWeight = FontWeight.Bold,
             fontFamily = FontFamily.Serif)
-
-
+        Spacer(modifier = Modifier.padding(2.dp))
+        Text("Ini adalah Halaman Login")
     }
 
 }
