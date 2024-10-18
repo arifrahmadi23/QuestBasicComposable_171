@@ -80,6 +80,11 @@ fun HalamanLogin(modifier: Modifier = Modifier){
         Text("Muhammad Arif Fajri Rahmadi",
             fontSize = 20.sp,
             color = Color.Red)
+        Spacer(modifier = Modifier.padding(5.dp))
+        Image(
+            painter = painterResource(id = R.drawable.fotoku),
+            contentDescription = "",
+        )
     }
 
 }
