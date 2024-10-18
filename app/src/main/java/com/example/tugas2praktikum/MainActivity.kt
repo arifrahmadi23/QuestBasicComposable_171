@@ -73,7 +73,8 @@ fun HalamanLogin(modifier: Modifier = Modifier){
                 .size(300.dp)
         )
         Spacer(modifier = Modifier.padding(2.dp))
-        Text("Nama")
+        Text("Nama",
+            fontSize = 20.sp)
     }
 
 }
